@@ -1,16 +1,16 @@
 Git setting user name and email id:
 
-<!-- Step 1 :-  -->
+Step 1 :- 
 
 git config --global user.name "Your Name"
 
 git config --global user.email "youremail@yourdomain.com"
 
-<!-- step 2:- -->
+step 2:-
 
 git config --list
 
-<!-- step 3 :-  (create ssh key ) -->
+step 3 :-  (create ssh key )
 
 ssh-keygen or ( ssh-keygen -t rsa -b 4096 -C "email" )
 
@@ -22,13 +22,13 @@ ls
 
 cat id_rsa_pub
 
-<!-- step 4:- -->
+step 4:-
 
 git init
 
 got project path 
 
-<!-- step 5 :-  -->
+step 5 :- 
 
 git config core.useBuiltinFSMonitor true
 
@@ -38,7 +38,7 @@ git config core.fsmonitor true
 
 
 
-<!-- step 6 :-  -->
+step 6 :- 
 
 git init 
 
@@ -77,13 +77,13 @@ git commit -m “first commit”
 git status
 
 
-<!-- step 7:- (first time project push in gitlab or github ) -->
+step 7:- (first time project push in gitlab or github )
    
 
 git remote add origin “go to gitlab project and copy ssh clone path paste here “
 
 
-<!-- step 8:-  -->
+step 8:- 
 
 finaly move the code: 
 
@@ -94,7 +94,7 @@ git push origin master
 
 git push -u origin master or git push -f origin master
 
-<!-- step 9 :- -->
+step 9 :-
 
 git log
 
@@ -112,7 +112,7 @@ git pull
 
 git push origin master
 
-<!-- step 10 :- -->
+step 10 :-
 
 create new branch from master branch
 
@@ -150,7 +150,7 @@ git reset --hard origin/master
 step 11 :- ( how to clone )
 
 
-<!-- copy master branch or any branch clone ssh file path and paste here -->
+copy master branch or any branch clone ssh file path and paste your terminal gitbash.
 
 
 
@@ -160,7 +160,7 @@ touch filename
 
 rm filename
 
-<!-- example:- -->
+example:-
 
 touch README.md
 
